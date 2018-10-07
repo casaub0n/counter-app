@@ -4,6 +4,7 @@
     "module": "commonjs",
     "jsx": "preserve",
     "strict": true,
+    "moduleResolution": "node",
     "esModuleInterop": true
   }
 }
