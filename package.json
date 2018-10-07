@@ -5,6 +5,9 @@
   "repository": "git@github.com:casaub0n/counter-app.git",
   "author": "Casaubon <netzach.yoshida@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "watch": "webpack-serve --port 10000"
+  },
   "dependencies": {
     "@blueprintjs/core": "^3.7.0",
     "react": "^16.5.2",
