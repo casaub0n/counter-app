@@ -6,7 +6,8 @@
   "author": "Casaubon <netzach.yoshida@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "watch": "webpack-serve --port 10000"
+    "watch": "webpack-serve --port 10000",
+    "lint": "tslint src/**.ts src/**.tsx"
   },
   "dependencies": {
     "@blueprintjs/core": "^3.7.0",
