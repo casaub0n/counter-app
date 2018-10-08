@@ -1,6 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import { Button } from '@blueprintjs/core'
+import React from "react"
+import ReactDOM from "react-dom"
 
 class Counter extends React.Component<{}, { value: number }> {
   state = {
@@ -21,4 +21,4 @@ class Counter extends React.Component<{}, { value: number }> {
   }
 }
 
-ReactDOM.render(<Counter />, document.querySelector(".root"));
+ReactDOM.render(<Counter />, document.querySelector(".root"))
