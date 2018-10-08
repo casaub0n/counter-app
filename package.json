@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "watch": "webpack-serve --port 10000",
-    "lint": "tslint src/**.ts src/**.tsx"
+    "lint": "tslint src/**.ts src/**.tsx",
+    "test:jest": "jest"
   },
   "dependencies": {
     "@blueprintjs/core": "^3.7.0",
