@@ -11,7 +11,7 @@ module.exports = {
   },
   globals: {
     'ts-jest': {
-      skipBabel: true
+      babelConfig: false
     }
   }
 }
