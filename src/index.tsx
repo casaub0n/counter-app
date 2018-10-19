@@ -13,9 +13,13 @@ class Counter extends React.Component<{}, { value: number }> {
           onClick={() => {
             this.setState({ value: this.state.value + 1 })
           }}
-        >
-          {this.state.value}
-        </Button>
+        />
+        <Button icon='minus'
+          onClick={() => {
+            this.setState({ value: this.state.value - 1 })
+          }}
+        />
+        <div>{this.state.value}</div>
       </div>
     )
   }
